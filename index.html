@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech For Girls - Registration</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3621/3621435.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Tech For Girls Registration</h1>
+
+    <form id="registrationForm">
+      <label>Name:</label>
+      <input type="text" id="name" required />
+
+      <label>Phone Number:</label>
+      <input type="number" id="phone" required />
+
+      <label>Email ID:</label>
+      <input type="email" id="email" required />
+
+      <label>College / Department:</label>
+      <input type="text" id="college" required />
+
+      <label>Upload Screenshot (PDF/IMG):</label>
+      <input type="file" id="screenshot" accept="image/*,.pdf" required />
+
+      <div class="share-section">
+        <button type="button" id="whatsappShare">📲 Share on WhatsApp</button>
+        <p id="clickCounter">Click count: 0/5</p>
+        <p id="shareMessage" class="hidden"></p>
+      </div>
+
+      <button type="submit" id="submitBtn">Submit Registration</button>
+    </form>
+
+    <p id="finalMessage" class="hidden"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
