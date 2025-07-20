@@ -30,10 +30,11 @@ This mini project is part of a community initiative to help girls learn practica
 
 ---
 
-## 🔗 Live Demo
+## GitHub Repository Link [Codes]
+https://github.com/ChadubulaVani/tech-for-girls-registration.git
 
-👉 [Click here to view the hosted website (GitHub Pages)](https://yourusername.github.io/tech-for-girls-registration/)  
-> *(Replace with your actual link)*
+## GitHub Page live link: 
+https://chadubulavani.github.io/tech-for-girls-registration/
 
 ---
 
